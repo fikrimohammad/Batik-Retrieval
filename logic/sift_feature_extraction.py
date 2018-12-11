@@ -22,6 +22,7 @@ class FeatureExtraction(object):
         cv2.imwrite('tmp.pgm', img)
         img_name = 'tmp.pgm'
         cmmd = str("sift " + img_name + " --output=" + res_name)
+        os.environ['PATH'] += os.pathsep + '/vlfeat/bin/win64'
         os.system(cmmd)
 
     def feature_extraction(self, img):
