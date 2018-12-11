@@ -1,5 +1,6 @@
 pip
 gunicorn
+scipy
 Flask==1.0.2
 opencv-python==3.4.4.19
 numpy==1.15.4
