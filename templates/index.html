@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Visi Komputer</title>
+        <style>
+            .item {
+                float:left;
+                width:220px;
+                margin:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="container">
+            {% for image in similar_images %}
+                <img class="item" src="{{ url_for('static', filename = image) }}" alt="{{ image }}">
+            {% endfor %}
+        </ul>
+    </body>
+</html>
