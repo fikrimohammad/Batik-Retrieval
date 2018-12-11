@@ -26,7 +26,7 @@ class ImageRetrieval(object):
 
         sorted_training_features = [list(x) for x in zip(*sorted(zip(cos_similarity, training_features),
                                                                  key=lambda pair: pair[0],
-                                                                 reverse=True)[0:10])]
+                                                                 reverse=True)[0:30])]
 
         return sorted_training_features[1]
 

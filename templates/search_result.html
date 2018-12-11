@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>Batik Retrieval - Visi Komputer</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='album.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>Hasil Pencarian</strong>
+          </a>
+          <a href="/" class="btn btn-lg btn-light d-flex align-items-center">
+            <img src="{{ url_for('static', filename='search.png') }}" style="max-height: 25px;max-width: 25px;">
+           </a>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <h1 class="text-center">Hasil Pencarian Paling atas = {{ namabatik }} </h1>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            {% for image in similar_images %}
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm" style="height: 300px">
+                    <img class="card-img-top" src="{{ url_for('static', filename=image) }}" alt="{{ image }}" style="max-height: 200px;max-width: 200px;align-self: center;margin-top: 50px;">
+                  </div>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+{##}
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#    <head>#}
+{#        <meta charset="UTF-8">#}
+{#        <title>Batik Retrieval - Visi Komputer</title>#}
+{#        <style>#}
+{#            .item {#}
+{#                float:left;#}
+{#                width:220px;#}
+{#                margin:10px;#}
+{#            }#}
+{#        </style>#}
+{#    </head>#}
+{#    <body>#}
+{#        <ul id="container">#}
+{#            {% for image in similar_images %}#}
+{#                <img class="item" src="{{ url_for('static', filename=image) }}" alt="{{ image }}" />#}
+{#            {% endfor %}#}
+{#        </ul>#}
+{#    </body>#}
+{#</html>#}
