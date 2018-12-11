@@ -2,322 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b2eb8d-4ba6-4832-96d6-cb0ecbc902a8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/FP-Web.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/image_retrieval.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/sift_feature_extraction.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/spatial_pyramid_histogram.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/machine-learning-models/all_img_histogram.sav" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/machine-learning-models/vocabulary.sav" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B10_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B10_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B10_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B10_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B10_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B10_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B11_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B11_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B11_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B11_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B11_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B11_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B12_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B12_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B12_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B12_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B12_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B12_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B13_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B13_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B13_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B13_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B13_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B13_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B14_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B14_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B14_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B14_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B14_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B14_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B15_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B15_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B15_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B15_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B15_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B15_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B16_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B16_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B16_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B16_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B16_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B16_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B17_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B17_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B17_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B17_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B17_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B17_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B18_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B18_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B18_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B18_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B18_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B18_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B19_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B19_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B19_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B19_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B19_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B19_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B1_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B1_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B1_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B1_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B1_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B1_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B20_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B20_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B20_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B20_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B20_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B20_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B21_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B21_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B21_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B21_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B21_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B21_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B22_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B22_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B22_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B22_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B22_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B22_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B23_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B23_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B23_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B23_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B23_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B23_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B24_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B24_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B24_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B24_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B24_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B24_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B25_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B25_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B25_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B25_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B25_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B25_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B26_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B26_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B26_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B26_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B26_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B26_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B27_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B27_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B27_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B27_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B27_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B27_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B28_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B28_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B28_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B28_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B28_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B28_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B29_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B29_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B29_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B29_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B29_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B29_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B2_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B2_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B2_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B2_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B2_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B2_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B30_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B30_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B30_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B30_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B30_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B30_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B31_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B31_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B31_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B31_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B31_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B31_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B32_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B32_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B32_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B32_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B32_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B32_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B33_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B33_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B33_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B33_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B33_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B33_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B34_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B34_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B34_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B34_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B34_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B34_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B35_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B35_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B35_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B35_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B35_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B35_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B36_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B36_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B36_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B36_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B36_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B36_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B37_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B37_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B37_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B37_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B37_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B37_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B38_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B38_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B38_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B38_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B38_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B38_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B39_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B39_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B39_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B39_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B39_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B39_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B3_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B3_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B3_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B3_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B3_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B3_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B40_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B40_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B40_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B40_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B40_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B40_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B41_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B41_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B41_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B41_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B41_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B41_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B42_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B42_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B42_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B42_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B42_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B42_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B43_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B43_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B43_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B43_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B43_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B43_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B44_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B44_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B44_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B44_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B44_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B44_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B45_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B45_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B45_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B45_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B45_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B45_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B46_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B46_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B46_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B46_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B46_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B46_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B47_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B47_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B47_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B47_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B47_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B47_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B48_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B48_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B48_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B48_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B48_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B48_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B49_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B49_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B49_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B49_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B49_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B49_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B4_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B4_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B4_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B4_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B4_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B4_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B50_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B50_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B50_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B50_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B50_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B50_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B5_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B5_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B5_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B5_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B5_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B5_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B6_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B6_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B6_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B6_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B6_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B6_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B7_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B7_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B7_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B7_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B7_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B7_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B8_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B8_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B8_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B8_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B8_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B8_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B9_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B9_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B9_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B9_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B9_5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/Dataset/B9_6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -331,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="29">
               <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -365,10 +60,10 @@
         <option value="$PROJECT_DIR$/spatial_pyramid_histogram.py" />
         <option value="$PROJECT_DIR$/image_retrieval.py" />
         <option value="$PROJECT_DIR$/logic/spatial_pyramid_histogram.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/logic/image_retrieval.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -509,13 +204,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -606,14 +302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logic/image_retrieval.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -636,6 +324,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
