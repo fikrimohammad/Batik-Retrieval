@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zxx" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>Batik Retrieval - Visi Komputer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <!-- External CSS libraries -->
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/jquery.selectBox.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/dropzone.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/rangeslider.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/leaflet.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/map.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/jquery.mCustomScrollbar.css') }}">
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='fonts/font-awesome/css/font-awesome.min.css') }}">
+
+        <!-- Google fonts -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/google-fonts') }}">
+
+        <!-- Custom Stylesheet -->
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body id="top">
+        <div class="page_loader"></div>
+
+        <!-- Banner start -->
+        <div class="banner banner-bg" id="particles-banner-wrapper">
+            <div id="particles-banner"></div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item item-bg active">
+                        <div class="carousel-caption banner-slider-inner d-flex h-100 text-left">
+                            <div class="carousel-content container">
+                                <div class="text-left max-w">
+                                    <h3 data-animation="animated fadeInDown delay-05s">Sistem Temu Kembali <br/>Motif Batik</h3>
+                                    <p data-animation="animated fadeInUp delay-10s">
+                                        Merupakan sistem yang dapat mengenali dan mencari motif batik yang memiliki kemiripan.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-bg">
+                        <div class="carousel-caption banner-slider-inner d-flex h-100 text-left">
+                            <div class="carousel-content container">
+                                <div class="text-left max-w">
+                                    <h3 data-animation="animated fadeInDown delay-05s">Melakukan Pencarian<br/>dengan Akurasi Tinggi</h3>
+                                    <p data-animation="animated fadeInUp delay-10s">
+                                        Sistem ini telah dikembangkan untuk mendapatkan akurasi kemiripan yang terbaik dan menyajikannya secara jelas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-bg">
+                            <div class="carousel-caption banner-slider-inner d-flex h-100 text-left">
+                                <div class="carousel-content container">
+                                    <div class="text-left max-w">
+                                        <h3 data-animation="animated fadeInDown delay-05s">Final Project <br/> Visi Komputer 2018</h3>
+                                        <p data-animation="animated fadeInUp delay-10s">
+                                            Pembuatan project ini bertujuan untuk memenuhi tugas akhir dari kelas Visi Komputer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="slider-mover-left" aria-hidden="true">
+                        <i class="fa fa-angle-left"></i>
+                    </span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="slider-mover-right" aria-hidden="true">
+                        <i class="fa fa-angle-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div id="search-area-3" class="search-area search-area-3 d-none d-xl-block d-lg-block">
+                <h2 class="text-center"><strong>Upload Gambar Motif Batik</strong></h2>
+                <p class="text-center">Tekan tombol UPLOAD untuk memilih gambar,<br>kemudian tekan tombol SUBMIT</p>
+                <p class="search-area-inner">
+                    <p class="search-contents">
+                        <p class="lead">
+                            <form action="/" method="post" enctype="multipart/form-data">
+                                <center>
+                                    <div class="form-group">
+                                        <div class="col-6">
+                                            <input type="file" class="inputfile" id="image" name="img"
+                                            style="
+                                                width: 0.1px;
+                                                height: 0.1px;
+                                                opacity: 0;
+                                                overflow: hidden;
+                                                position: absolute;
+                                                z-index: -1;
+                                            ">
+                                            <label for="image" style="width: 100px; height: 110px"><i class='fa fa-upload'></i></label>
+                                        </div>
+                                    </div>
+                                </center>
+                                <center>
+                                    <button type="submit" class="search-button btn-md btn-color">Cari</button>
+                                </center>
+                            </form>
+                        </p>
+                    </p>
+                </p>
+            </div>
+        </div>
+        <!-- banner end -->
+
+        <script src="{{ url_for('static', filename='js/jquery-2.2.0.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.selectBox.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/rangeslider.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.filterizr.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/backstretch.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.countdown.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.scrollUp.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/particles.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/typed.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.mb.YTPlayer.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/leaflet.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/leaflet-providers.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/leaflet.markercluster.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/maps.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/ie-emulation-modes-warning.js') }}"></script>
+        <!-- Custom JS Script -->
+        <script  src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+    </body>
+</html>
+
+{#<!doctype html>#}
+{#<html lang="en">#}
+{#  <head>#}
+{#    <meta charset="utf-8">#}
+{#    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">#}
+{#    <meta name="description" content="">#}
+{#    <meta name="author" content="">#}
+{#    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">#}
+{#    <title>Batik Retrieval - Visi Komputer</title>#}
+{#    <!-- Bootstrap core CSS -->#}
+{#    <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">#}
+{#    <!-- Custom styles for this template -->#}
+{#    <link href="{{ url_for('static', filename='cover.css') }}" rel="stylesheet">#}
+{#  </head>#}
+{#  <body class="text-center">#}
+{#    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">#}
+{#      <header class="masthead mb-auto"></header>#}
+{#      <main role="main" class="inner cover">#}
+{#        <h1 class="cover-heading">Citra Kain Tradisional</h1>#}
+{#        <p class="lead">Tekan tombol 'Choose File' dibawah untuk memilih gambar, kemudian tekan tombol 'Submit' untuk melanjutkan</p>#}
+{#        <p class="lead">#}
+{#          <form action="/" method="post" enctype="multipart/form-data">#}
+{#            <center>#}
+{#                <div class="form-group">#}
+{#                    <div class="col-6">#}
+{#                        <input type="file" class="form-control-file btn btn-outline-light" name="img">#}
+{#                    </div>#}
+{#                </div>#}
+{#            </center>#}
+{#            <button type="submit" class="btn btn-lg btn-outline-light">Search</button>#}
+{#          </form>#}
+{#        </p>#}
+{#      </main>#}
+{#      <footer class="mastfoot mt-auto">#}
+{#        <div class="inner">#}
+{#          <p>Final Project <a href="https://getbootstrap.com/">Visi Komputer</a>, by <a href="https://twitter.com/mdo">Kelompok 4</a>.</p>#}
+{#        </div>#}
+{#      </footer>#}
+{#    </div>#}
+{#    <!-- Bootstrap core JavaScript#}
+{#    ================================================== -->#}
+{#    <!-- Placed at the end of the document so the pages load faster -->#}
+{#  </body>#}
+{#</html>#}

@@ -27,10 +27,12 @@
       </div>
     </header>
     <main role="main">
-      <h1 class="text-center">Hasil Pencarian Paling atas = {{ namabatik }} </h1>
-
       <div class="album py-5 bg-light">
         <div class="container">
+          <div class="row justify-content-center">
+              <h3 class="text-center">Hasil Pencarian Paling atas = {{ namabatik }} </h3>
+          </div>
+          <br>
           <div class="row">
             {% for image in similar_images %}
                 <div class="col-md-4">
@@ -45,25 +47,3 @@
     </main>
   </body>
 </html>
-{##}
-{#<!DOCTYPE html>#}
-{#<html lang="en">#}
-{#    <head>#}
-{#        <meta charset="UTF-8">#}
-{#        <title>Batik Retrieval - Visi Komputer</title>#}
-{#        <style>#}
-{#            .item {#}
-{#                float:left;#}
-{#                width:220px;#}
-{#                margin:10px;#}
-{#            }#}
-{#        </style>#}
-{#    </head>#}
-{#    <body>#}
-{#        <ul id="container">#}
-{#            {% for image in similar_images %}#}
-{#                <img class="item" src="{{ url_for('static', filename=image) }}" alt="{{ image }}" />#}
-{#            {% endfor %}#}
-{#        </ul>#}
-{#    </body>#}
-{#</html>#}

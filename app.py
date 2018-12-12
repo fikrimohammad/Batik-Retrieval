@@ -19,6 +19,7 @@ def search_form():
 
 @app.route('/', methods=['POST'])
 def batik_retrieval():
+
     fe = FeatureExtraction()
     sph = SpatialPyramidHistogram()
     ir = ImageRetrieval()

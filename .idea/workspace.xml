@@ -2,18 +2,1710 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b2eb8d-4ba6-4832-96d6-cb0ecbc902a8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/album.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/cover.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/FP-Web.iml" afterPath="$PROJECT_DIR$/.idea/FP-Web.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change beforePath="$PROJECT_DIR$/logic/image_retrieval.py" afterPath="$PROJECT_DIR$/logic/image_retrieval.py" />
-      <change beforePath="$PROJECT_DIR$/logic/sift_feature_extraction.py" afterPath="$PROJECT_DIR$/logic/sift_feature_extraction.py" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/search_result.html" />
+      <change beforePath="$PROJECT_DIR$/templates/search_result.html" afterPath="$PROJECT_DIR$/templates/search_result.html" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/COPYING" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/Makefile.mak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/phow_caltech101.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/encodeImage.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/experiments.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/extendDescriptorsWithGeometry.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/getDenseSIFT.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/readImage.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/setupCaltech256.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/setupFMD.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/setupGeneric.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/setupScene67.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/setupVoc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/trainEncoder.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/recognition/traintest.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/apps/sift_mosaic.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/aib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/libvl.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/mser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/sift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_gauss_elimination" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_getopt_long" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_gmm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_heap-def" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_host" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_imopv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_kmeans" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_liop" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_mathop" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_mathop_abs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_nan" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_qsort-def" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_rand" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_sqrti" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_stringop" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_svd2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_threads" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/glnxa64/test_vec_comp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/aib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/libomp.dylib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/libvl.dylib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/mser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/sift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_gauss_elimination" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_getopt_long" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_gmm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_heap-def" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_host" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_imopv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_kmeans" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_liop" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_mathop" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_mathop_abs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_nan" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_qsort-def" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_rand" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_sqrti" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_stringop" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_svd2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_threads" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/bin/maci64/test_vec_comp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/data/box.pgm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/data/box.sift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/data/river1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/data/river2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/data/roofs1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/data/roofs2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/data/spots.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/about.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/aib.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/aib_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/aib_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/annotated.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/array_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/bc_s.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/bdwn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/bug.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/citelist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/classes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/closed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/conventions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet-affine-adaptation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet-corner-types.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet-differential.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet-dominant-orientation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet-normalization.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet-principles.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/covdet_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/deprecated.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/dev.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/dir_68267d1309a1af8e8297ef4c3efbcdba.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/dir_8dd540b382164c224dfa1eb6e8a3add6.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/dir_cb851817d6f77244316f2683559617a2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/doc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/doxygen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/doxygen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/dsift-geom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/dsift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/dsift_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/dsift_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/files.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/fisher-derivation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/fisher-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/fisher-kernel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/fisher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/fisher_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/fisher_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/folderclosed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/folderopen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/frame-canonical.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/frame-types.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_b.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_e.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_f.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_g.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_i.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_j.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_k.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_l.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_m.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_n.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_o.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_p.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_r.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_s.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_t.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_u.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_v.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_b.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_e.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_f.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_g.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_i.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_j.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_k.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_l.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_m.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_n.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_o.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_p.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_r.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_s.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_t.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_u.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_v.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_w.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_x.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_vars_y.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_w.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_x.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/functions_y.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/generic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/generic_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/generic_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/getopt__long_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/getopt__long_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_a.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_defs.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_e.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_enum.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_eval.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_f.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_a.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_f.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_g.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_n.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_r.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_u.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_v.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_func_x.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_g.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_i.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_n.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_o.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_p.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_r.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_type.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_u.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_v.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_vars.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/globals_x.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/glossary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/gmm-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/gmm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/gmm_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/gmm_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/heap-def_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/hikmeans_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/hikmeans_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/hog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/hog_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/hog_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/homkermap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/homkermap_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/homkermap_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/host_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/host_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/ikmeans_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/ikmeans_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/imopv_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/imopv_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/imopv__sse2_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/imopv__sse2_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/kdtree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/kdtree_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/kdtree_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/kmeans-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/kmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/kmeans_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/kmeans_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/lbp-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/lbp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/lbp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/lbp_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/lbp_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/liop-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/liop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/liop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/liop_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/liop_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mathop-sqrti.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mathop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mathop_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mathop_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mathop__avx_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mathop__avx_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mathop__sse2_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mathop__sse2_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/matlab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/metaprogram.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mexutils_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/misc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mser-er-step.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mser-er.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mser-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mser-tree.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mser.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mser_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/mser_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/nav_f.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/nav_g.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/nav_h.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/objects.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/pages.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/pgm_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/pgm_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/portability.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/qsort-def_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/quickshift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/quickshift_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/quickshift_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/random.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/random_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/random_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/resources.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/rodrigues_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/rodrigues_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/scalespace-basic.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/scalespace-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/scalespace.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/scalespace.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/scalespace_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/scalespace_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/shuffle-def_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift-can.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift-conv-vlfeat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift-conv.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift-descr-easy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift-frame.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift-image-frame.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift-orient.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift-ss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sift_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/slic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/slic_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/slic_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/splitbar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/stringop_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/stringop_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlAIB.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlArray.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlCovDetFeature.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlCovDetFeatureLaplacianScale.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlCovDetFeatureOrientation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlDsiftDescriptorGeometry.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlDsiftFilter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlDsiftKeypoint.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlEnumerator.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlFrameDisc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlFrameEllipse.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlFrameOrientedDisc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlFrameOrientedEllipse.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlHIKMNode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlHIKMTree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlIKMFilt.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlKDForest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlKDForestNeighbor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlKDForestSearcher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlKMeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlLbp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlLiopDesc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlPgmImage.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlQS.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlRand.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlScaleSpace.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlScaleSpaceGeometry.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlScaleSpaceOctaveGeometry.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlSiftFilt.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlSiftKeypoint.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structVlSvmStatistics.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/struct__VlCovDet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/struct__VlFileMeta.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/struct__VlMserExtrReg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/struct__VlMserFilt.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/struct__VlMserReg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/struct__VlMserStats.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/struct__vlmxOption.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/structoption.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svm-advanced.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svm-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svm-sdca.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svm-sgd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svm_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svm_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svmdataset_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/svmdataset_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sync_off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/sync_on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/tab_a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/tab_b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/tab_h.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/tab_s.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/tabs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/threads.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/todo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/vlad-fundamentals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/vlad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/vlad_8c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/api/vlad_8h.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/applications/apps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/applications/caltech-101-code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/applications/experiments.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/applications/sift-mosaic-code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/about.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/api/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/applications/apps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/applications/caltech-101-code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/applications/experiments.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/applications/sift-mosaic-code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/compiling-unix.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/compiling-windows.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/compiling.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/doc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/download.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/doxygen_footer.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/doxygen_header.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/gcc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/install-c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/install-matlab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/install-octave.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/install-shell.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/license.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/man/man.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/man/mser.1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/man/sift.1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/man/vlfeat.7.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/man/xman.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/matlab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/mdoc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_aib.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_aibcut.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_aibcuthist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_aibcutpush.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_aibhist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_alldist2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_alphanum.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_argparse.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_binsearch.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_binsum.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_cf.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_click.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_clickpoint.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_clicksegment.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_colsubset.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_compile.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_covdet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_cummax.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ddgaussian.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_det.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_dgaussian.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_dsift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_dsigmoid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_dwaffine.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_erfill.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ertr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_figaspect.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_fisher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_flatmap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_frame2oell.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_gaussian.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_getpid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_gmm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_grad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_harris.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_hat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_help.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_hikmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_hikmeanshist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_hikmeanspush.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_histmarg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_hog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_homkermap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ihashfind.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ihashsum.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ihat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ikmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ikmeanshist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ikmeanspush.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imarray.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imarraysc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imdisttf.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imdown.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imgrad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imintegral.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_impattern.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imreadbw.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imreadgray.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imsc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imseg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imsmooth.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imwbackward.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_imwhiten.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_inthist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_irodr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_isoctave.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_kdtreebuild.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_kdtreequery.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_kmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_lbp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_lbpfliplr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_linespec2prop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_liop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_localmax.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_matlabversion.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_mser.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_noprefix.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_numder.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_numder2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_override.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_pegasos.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_phow.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_plotbox.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_plotframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_plotgrid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_plotpoint.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_plotsiftdescriptor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_plotss.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_plotstyle.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_pr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_printsize.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_quickseg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_quickshift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_quickvis.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_rcos.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_rgb2xyz.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_roc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_rodr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_root.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_sampleinthist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_setup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_sift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_siftdescriptor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_sigmoid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_simdctrl.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_slic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_svmdataset.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_svmpegasos.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_svmtrain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_threads.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_tightsubplot.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_tpfp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_tps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_tpsu.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_twister.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ubcmatch.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_ubcread.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_version.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_vlad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_waffine.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_whistc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_witps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_wtps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_xmkdir.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_xyz2lab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_xyz2luv.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/matlab/vl_xyz2rgb.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/notfound.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/aib.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/covdet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/dsift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/encodings.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/gmm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/hikm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/hog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/ikm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/imdisttf.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/kdtree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/kmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/liop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/mser.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/plots-rank.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/quickshift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/sift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/slic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/svm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/tut.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/overview/utils.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/roadmap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/search.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/vsexpress.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/build/xcode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/compiling-unix.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/compiling-windows.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/compiling.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/aib_basic_clust_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/aib_basic_clust_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/aib_basic_clust_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/aib_basic_clust_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/aib_basic_clust_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/aib_basic_data.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_affine_frames.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_affine_patches.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_basic_frames.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_basic_image.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_css.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_custom_frames.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_detectors.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_gss.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_oriented_frames.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_patches.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/covdet_scores.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/dsift_accuracy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/dsift_speedup.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/frame_affine.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/frame_frame2oell.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/frame_rotated.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/frame_standard.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/gmm_2d_rand.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/gmm_2d_shell.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/hog_bilinear_orientations.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/hog_features.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/hog_features_dalal_triggs.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/hog_flipping.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/hog_image.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/hog_num_orientations.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/imdisttf_dist.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/imdisttf_edge.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/imdisttf_neigh.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/imdisttf_src.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_ann_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_ann_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_ann_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_ann_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_circle_mean.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_circle_median.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_forest_query.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_forest_tree_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_forest_tree_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_forest_tree_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_forest_tree_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_self.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_sift_distortion.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_sift_incorrect.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_uniform_mean.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kdtree_uniform_median.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kmeans_2d_rand.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/kmeans_speed.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_basic_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_basic_contours.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_basic_contours_both.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_basic_frames.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_basic_frames_both.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_delta_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_delta_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_delta_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_delta_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/mser_delta_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/plots_rank_det.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/plots_rank_pr.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/plots_rank_roc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/plots_rank_roc_variants.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/quickshift_image.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/quickshift_qseg_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/quickshift_qseg_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/quickshift_qvis.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_basic_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_basic_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_basic_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_basic_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_basic_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_basic_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_edge_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_edge_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_edge_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_edge_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_edge_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_match_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_match_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_or.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_peak_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_peak_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_peak_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_peak_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_peak_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_vs_ubc_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_vs_ubc_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/sift_vs_ubc_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/slic_image.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/slic_segmentation.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/svm_energy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/svm_training.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/demo/svm_training_result.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/doc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/download.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/cell-bins.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/covdet-normalization.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/covdet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/dhog-bins.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/dsift-geom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/frame-canonical.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/frame-types.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/frames.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/lbp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/liop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/mser-er-step.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/mser-er.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/mser-tree.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/scalespace-basic.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/scalespace.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-angle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-bins.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-can.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-conv-vlfeat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-conv.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-descr-easy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-frame.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-image-frame.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-orient.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/figures/sift-ss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/gcc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/PASCAL2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/caltech-collage.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/fulkerson.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/git.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/help.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/lenc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/liop-neighbours-sampling.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/liop-patch-layout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/perdoch.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/perrone.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/placeholder.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/sarbortova.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/sift-mosaic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/sulc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-additional-deps.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-additional-include.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-additional-libdir.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-all-configurations.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-empty-project.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-new-project.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-nodll.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-ok.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-post-step.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-vs-project-properties.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-xcode-copy-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-xcode-copy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-xcode-dylib.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-xcode-edit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-xcode-err.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-xcode-info.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-xcode-new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/using-xcode-ok.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/vedaldi.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/vl_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/images/yandex.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/install-c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/install-matlab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/install-octave.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/install-shell.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/license.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/man/man.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/man/mser.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/man/sift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/man/vlfeat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_aib.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_alldist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_cmd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_covdet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_dsift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_gmm_2d_rand.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_gmm_2d_twist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_gmm_3d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_gmm_convergence.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_hog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_ikmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_imdisttf.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kdtree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kdtree_ann.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kdtree_forest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kdtree_plot.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kdtree_self.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kdtree_sift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kmeans_2d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kmeans_ann_speed.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kmeans_init.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_kmeans_vs_builtin.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_mser_basic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_mser_cmd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_mser_delta.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_plots_rank.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_print.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_quickshift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_sift_basic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_sift_cmd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_sift_edge.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_sift_match.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_sift_or.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_sift_peak.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_sift_vs_ubc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_slic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/demo/vl_demo_svm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/matlab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_aib.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_aibcut.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_aibcuthist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_aibcutpush.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_aibhist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_alldist2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_alphanum.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_argparse.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_binsearch.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_binsum.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_cf.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_click.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_clickpoint.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_clicksegment.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_colsubset.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_compile.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_covdet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_cummax.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ddgaussian.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_det.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_dgaussian.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_dsift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_dsigmoid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_dwaffine.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_erfill.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ertr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_figaspect.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_fisher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_flatmap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_frame2oell.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_gaussian.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_getpid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_gmm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_grad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_harris.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_hat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_help.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_hikmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_hikmeanshist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_hikmeanspush.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_histmarg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_hog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_homkermap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ihashfind.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ihashsum.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ihat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ikmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ikmeanshist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ikmeanspush.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imarray.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imarraysc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imdisttf.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imdown.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imgrad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imintegral.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_impattern.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imreadbw.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imreadgray.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imsc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imseg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imsmooth.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imwbackward.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_imwhiten.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_inthist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_irodr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_isoctave.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_kdtreebuild.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_kdtreequery.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_kmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_lbp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_lbpfliplr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_linespec2prop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_liop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_localmax.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_matlabversion.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_mser.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_noprefix.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_numder.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_numder2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_override.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_pegasos.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_phow.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_plotbox.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_plotframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_plotgrid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_plotpoint.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_plotsiftdescriptor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_plotss.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_plotstyle.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_pr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_printsize.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_quickseg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_quickshift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_quickvis.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_rcos.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_rgb2xyz.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_roc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_rodr.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_root.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_sampleinthist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_setup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_sift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_siftdescriptor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_sigmoid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_simdctrl.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_slic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_svmdataset.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_svmpegasos.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_svmtrain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_threads.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_tightsubplot.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_tpfp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_tps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_tpsu.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_twister.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ubcmatch.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_ubcread.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_version.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_vlad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_waffine.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_whistc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_witps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_wtps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_xmkdir.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_xyz2lab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_xyz2luv.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/matlab/vl_xyz2rgb.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/notfound.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/aib.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/covdet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/dsift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/encodings.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/gmm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/hikm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/hog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/ikm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/imdisttf.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/kdtree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/kmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/liop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/mser.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/plots-rank.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/quickshift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/sift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/slic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/svm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/tut.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/overview/utils.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/pygmentize.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/roadmap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/search.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/vlfeat.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/vsexpress.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/doc/xcode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/about.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/api.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/apps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/compiling.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/doc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/download.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/doxygen.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/doxygen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/doxytag.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/dtd/xhtml1/xhtml-lat1.ent" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/dtd/xhtml1/xhtml-special.ent" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/dtd/xhtml1/xhtml-symbol.ent" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/dtd/xhtml1/xhtml.soc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/dtd/xhtml1/xhtml1-frameset.dtd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/dtd/xhtml1/xhtml1-strict.dtd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/dtd/xhtml1/xhtml1-transitional.dtd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/dtd/xhtml1/xhtml1.dcl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/cell-bins.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/covdet-normalization.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/covdet.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/dhog-bins.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/dsift-geom.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/frame-canonical.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/frame-types.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/frames.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/lbp.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/liop.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/mser-er-step.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/mser-er.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/mser-tree.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/scalespace-basic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/scalespace.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-angle.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-bins.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-can.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-conv-vlfeat.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-conv.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-descr-easy.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-frame.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-image-frame.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-orient.fig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/figures/sift-ss.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/formatter.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/PASCAL2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/caltech-collage.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/fulkerson.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/git.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/help.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/lenc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/liop-neighbours-sampling.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/liop-patch-layout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/perdoch.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/perrone.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/placeholder.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/sarbortova.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/sift-mosaic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/sulc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-additional-deps.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-additional-include.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-additional-libdir.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-all-configurations.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-empty-project.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-new-project.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-nodll.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-ok.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-post-step.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-vs-project-properties.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-xcode-copy-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-xcode-copy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-xcode-dylib.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-xcode-edit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-xcode-err.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-xcode-info.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-xcode-new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/using-xcode-ok.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/vedaldi.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/vl_blue.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/vl_blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/vl_blue.pxm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/vl_blue_large.pxm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/images/yandex.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/install-c.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/install-matlab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/install-octave.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/install-shell.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/license.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/mdoc.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/notfound.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/pygmentize.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/roadmap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tabs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/aib.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/covdet.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/dsift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/encode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/gmm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/hikm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/hog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/ikm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/imdisttf.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/kdtree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/kmeans.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/liop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/mser.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/plots-rank.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/quickshift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/sift.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/slic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/svm.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/tutorials/utils.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/using-gcc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/using-vsexpress.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/using-xcode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/vlfeat-website-main-content.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/vlfeat-website-preproc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/vlfeat-website-template.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/vlfeat-website.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/vlfeat.bib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/vlfeat.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/webdoc.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/docsrc/wikidoc.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/bin.mak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/dist.mak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/dll.mak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/doc.mak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/macos_relink_omp.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/matlab.mak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/nmake_helper.mak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/octave.mak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/make/update-mak.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/aib.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/check.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/generic-driver.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/mser.1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/mser.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/sift.1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/sift.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_gauss_elimination.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_getopt_long.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_gmm.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_heap-def.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_host.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_imopv.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_kmeans.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_liop.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_mathop.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_mathop_abs.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_mathop_fast_resqrt.tc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_mathop_fast_sqrt_ui.tc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_nan.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_qsort-def.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_rand.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_sqrti.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_stringop.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_svd2.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_threads.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/test_vec_comp.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/src/vlfeat.7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/aib/vl_aib.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/aib/vl_aib.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/aib/vl_aibcut.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/aib/vl_aibcuthist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/aib/vl_aibcutpush.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/aib/vl_aibhist.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/aib/vl_aibhist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_aib.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_alldist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_cmd.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_covdet.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_dsift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_frame.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_gmm_2d_rand.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_gmm_2d_twist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_gmm_3d.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_gmm_convergence.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_hog.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_ikmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_imdisttf.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kdtree.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kdtree_ann.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kdtree_forest.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kdtree_plot.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kdtree_self.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kdtree_sift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kmeans_2d.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kmeans_ann_speed.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kmeans_init.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_kmeans_vs_builtin.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_mser_basic.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_mser_cmd.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_mser_delta.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_plots_rank.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_print.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_quickshift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_sift_basic.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_sift_cmd.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_sift_edge.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_sift_match.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_sift_or.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_sift_peak.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_sift_vs_ubc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_slic.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_svm.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/demo/vl_demo_svm_data.mat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/fisher/vl_fisher.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/fisher/vl_fisher.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/geometry/vl_hat.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/geometry/vl_ihat.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/geometry/vl_irodr.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/geometry/vl_irodr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/geometry/vl_rodr.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/geometry/vl_rodr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/gmm/vl_gmm.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/gmm/vl_gmm.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_dwaffine.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imarray.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imarraysc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imdisttf.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imdisttf.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imdown.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imgrad.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imintegral.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imintegral.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_impattern.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imreadbw.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imreadgray.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imsc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imsmooth.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imsmooth.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imup.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imwbackward.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imwbackwardmx.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_imwhiten.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_rgb2xyz.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_tps.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_tpsu.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_tpsumx.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_waffine.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_witps.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_wtps.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_xyz2lab.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_xyz2luv.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/imop/vl_xyz2rgb.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/info.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_hikmeans.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_hikmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_hikmeanshist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_hikmeanspush.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_hikmeanspush.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_ikmeans.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_ikmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_ikmeanshist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_ikmeanspush.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_ikmeanspush.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_kmeans.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/kmeans/vl_kmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/libvl.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_aib.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_aibhist.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_alldist.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_alldist2.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_binsearch.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_binsum.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_covdet.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_cummax.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_dsift.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_erfill.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_fisher.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_getpid.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_gmm.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_hikmeans.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_hikmeanspush.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_hog.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_homkermap.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_ihashfind.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_ihashsum.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_ikmeans.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_ikmeanspush.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_imdisttf.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_imintegral.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_imsmooth.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_imwbackwardmx.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_inthist.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_irodr.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_kdtreebuild.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_kdtreequery.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_kmeans.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_lbp.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_liop.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_localmax.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_mser.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_quickshift.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_rodr.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_sampleinthist.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_sift.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_siftdescriptor.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_simdctrl.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_slic.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_svmtrain.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_threads.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_tpsumx.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_twister.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_ubcmatch.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_version.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexa64/vl_vlad.mexa64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/libvl.dylib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_aib.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_aibhist.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_alldist.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_alldist2.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_binsearch.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_binsum.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_covdet.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_cummax.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_dsift.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_erfill.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_fisher.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_getpid.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_gmm.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_hikmeans.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_hikmeanspush.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_hog.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_homkermap.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_ihashfind.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_ihashsum.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_ikmeans.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_ikmeanspush.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_imdisttf.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_imintegral.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_imsmooth.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_imwbackwardmx.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_inthist.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_irodr.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_kdtreebuild.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_kdtreequery.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_kmeans.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_lbp.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_liop.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_localmax.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_mser.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_quickshift.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_rodr.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_sampleinthist.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_sift.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_siftdescriptor.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_simdctrl.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_slic.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_svmtrain.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_threads.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_tpsumx.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_twister.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_ubcmatch.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_version.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexmaci64/vl_vlad.mexmaci64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_aib.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_aibhist.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_alldist.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_alldist2.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_binsearch.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_binsum.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_covdet.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_cummax.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_dsift.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_erfill.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_fisher.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_getpid.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_gmm.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_hikmeans.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_hikmeanspush.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_hog.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_homkermap.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_ihashfind.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_ihashsum.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_ikmeans.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_ikmeanspush.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_imdisttf.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_imintegral.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_imsmooth.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_imwbackwardmx.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_inthist.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_irodr.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_kdtreebuild.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_kdtreequery.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_kmeans.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_lbp.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_liop.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_localmax.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_mser.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_quickshift.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_rodr.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_sampleinthist.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_sift.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_siftdescriptor.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_simdctrl.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_slic.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_svmtrain.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_threads.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_tpsumx.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_twister.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_ubcmatch.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_version.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mex/mexw64/vl_vlad.mexw64" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mexutils.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/inthist.tc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/kdtree.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/samplinthist.tc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/svms_common.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_alldist.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_alldist2.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_alldist2.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_alphanum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_argparse.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_binsearch.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_binsearch.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_binsum.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_binsum.def" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_binsum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_colsubset.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_cummax.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_cummax.def" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_cummax.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_getpid.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_getpid.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_grad.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_histmarg.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_hog.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_hog.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_homkermap.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_homkermap.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_ihashfind.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_ihashfind.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_ihashsum.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_ihashsum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_inthist.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_inthist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_isoctave.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_kdtreebuild.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_kdtreebuild.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_kdtreequery.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_kdtreequery.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_lbp.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_lbp.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_lbpfliplr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_localmax.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_localmax.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_matlabversion.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_numder.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_numder2.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_override.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_pegasos.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_sampleinthist.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_sampleinthist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_simdctrl.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_simdctrl.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_svmdataset.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_svmpegasos.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_svmtrain.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_svmtrain.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_threads.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_threads.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_twister.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_twister.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_version.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_version.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_whistc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/misc/vl_xmkdir.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mser/vl_erfill.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mser/vl_erfill.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mser/vl_ertr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mser/vl_mser.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/mser/vl_mser.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/aib.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/aibcut.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/aibcuthist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/aibcutpush.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/aibhist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/alldist2.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/alphanum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/argparse.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/binsearch.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/binsum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/cf.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/click.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/clickpoint.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/clicksegment.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/colsubset.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/covdet.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/cummax.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ddgaussian.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/det.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/dgaussian.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/dsift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/dsigmoid.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/dwaffine.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/erfill.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ertr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/figaspect.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/fisher.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/flatmap.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/frame2oell.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/gaussian.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/getpid.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/gmm.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/grad.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/harris.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/hat.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/hikmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/hikmeanshist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/hikmeanspush.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/histmarg.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/hog.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/homkermap.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ihashfind.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ihashsum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ihat.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ikmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ikmeanshist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ikmeanspush.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imarray.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imarraysc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imdisttf.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imdown.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imgrad.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imintegral.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/impattern.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imreadbw.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imreadgray.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imsc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imseg.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imsmooth.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imup.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imwbackward.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/imwhiten.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/inthist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/irodr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/isoctave.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/kdtreebuild.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/kdtreequery.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/kmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/lbp.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/lbpfliplr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/linespec2prop.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/liop.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/localmax.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/matlabversion.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/mser.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/noprefix.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/numder.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/numder2.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/override.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/pegasos.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/phow.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/plotbox.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/plotframe.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/plotgrid.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/plotpoint.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/plotsiftdescriptor.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/plotss.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/plotstyle.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/pr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/printsize.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/quickseg.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/quickshift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/quickvis.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/rcos.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/rgb2xyz.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/roc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/rodr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/sampleinthist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/sift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/siftdescriptor.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/sigmoid.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/simdctrl.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/slic.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/svmdataset.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/svmpegasos.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/svmtrain.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/test.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/threads.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/tightsubplot.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/tpfp.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/tps.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/tpsu.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/twister.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ubcmatch.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/ubcread.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/vlad.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/waffine.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/whistc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/witps.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/wtps.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/xmkdir.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/xyz2lab.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/xyz2luv.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/noprefix/xyz2rgb.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_cf.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_click.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_clickpoint.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_clicksegment.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_det.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_figaspect.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_linespec2prop.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_plotbox.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_plotframe.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_plotgrid.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_plotpoint.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_plotstyle.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_pr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_printsize.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_roc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_tightsubplot.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/plotop/vl_tpfp.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/quickshift/vl_flatmap.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/quickshift/vl_imseg.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/quickshift/vl_quickseg.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/quickshift/vl_quickshift.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/quickshift/vl_quickshift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/quickshift/vl_quickvis.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_covdet.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_covdet.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_dsift.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_dsift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_frame2oell.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_liop.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_liop.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_phow.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_plotsiftdescriptor.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_plotss.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_sift.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_sift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_siftdescriptor.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_siftdescriptor.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_ubcmatch.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_ubcmatch.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/sift/vl_ubcread.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/slic/vl_slic.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/slic/vl_slic.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/special/vl_ddgaussian.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/special/vl_dgaussian.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/special/vl_dsigmoid.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/special/vl_gaussian.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/special/vl_rcos.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/special/vl_sigmoid.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vl_compile.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vl_demo.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vl_harris.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vl_help.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vl_noprefix.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vl_root.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vl_setup.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vlad/vl_vlad.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/vlad/vl_vlad.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_aib.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_alldist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_alldist2.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_alphanum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_argparse.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_base.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_binsearch.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_binsum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_colsubset.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_cummax.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_dsift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_fisher.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_gmm.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_grad.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_hikmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_hog.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_homkermap.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_ihashsum.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_ikmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_imarray.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_imdisttf.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_imintegral.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_imsmooth.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_imwbackward.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_inthist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_kdtree.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_kmeans.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_lbp.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_liop.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_mser.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_phow.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_plotbox.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_pr.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_printsize.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_roc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_sift.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_slic.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_svmtrain.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_twister.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_vlad.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/toolbox/xtest/vl_test_whistc.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/aib.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/aib.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/array.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/array.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/covdet.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/covdet.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/dsift.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/dsift.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/fisher.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/fisher.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/float.th" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/generic.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/generic.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/getopt_long.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/getopt_long.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/gmm.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/gmm.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/heap-def.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/hikmeans.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/hikmeans.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/hog.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/hog.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/homkermap.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/homkermap.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/host.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/host.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/ikmeans.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/ikmeans.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/ikmeans_elkan.tc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/ikmeans_init.tc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/ikmeans_lloyd.tc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/imopv.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/imopv.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/imopv_sse2.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/imopv_sse2.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/kdtree.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/kdtree.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/kmeans.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/kmeans.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/lbp.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/lbp.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/liop.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/liop.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/mathop.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/mathop.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/mathop_avx.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/mathop_avx.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/mathop_sse2.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/mathop_sse2.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/mser.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/mser.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/pgm.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/pgm.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/qsort-def.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/quickshift.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/quickshift.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/random.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/random.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/rodrigues.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/rodrigues.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/scalespace.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/scalespace.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/shuffle-def.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/sift.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/sift.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/slic.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/slic.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/stringop.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/stringop.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/svm.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/svm.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/svmdataset.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/svmdataset.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/vlad.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vl/vlad.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vlfeat.sln" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vlfeat.vcproj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vlfeat.xcodeproj/project.pbxproj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vlfeat.xcodeproj/xcshareddata/xcschemes/make doc-api.xcscheme" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vlfeat.xcodeproj/xcshareddata/xcschemes/make info.xcscheme" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vlfeat-0.9.21/vlfeat.xcodeproj/xcshareddata/xcschemes/make.xcscheme" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,15 +1715,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FP_Web$FP_Web.coverage" NAME="FP-Web Coverage Results" MODIFIED="1544538365065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FP_Web$FP_Web.coverage" NAME="FP-Web Coverage Results" MODIFIED="1544598169384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="39" column="91" lean-forward="false" selection-start-line="39" selection-start-column="91" selection-end-line="39" selection-end-column="91" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -43,7 +1735,7 @@
         <entry file="file://$PROJECT_DIR$/logic/sift_feature_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -61,26 +1753,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_result.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search_result.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/search_result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-              <folding>
-                <element signature="e#1160#1201#0#HTML" expanded="true" />
-                <element signature="e#1603#1624#0#HTML" expanded="true" />
-                <element signature="e#1736#1815#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/search_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="22" column="84" lean-forward="false" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#center#0;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#center#0;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +1786,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>background.</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,8 +1813,9 @@
         <option value="$PROJECT_DIR$/logic/sift_feature_extraction.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/logic/image_retrieval.py" />
-        <option value="$PROJECT_DIR$/templates/search_form.html" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/search_form.html" />
         <option value="$PROJECT_DIR$/templates/search_result.html" />
       </list>
     </option>
@@ -129,7 +1826,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1040" />
@@ -151,8 +1848,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,33 +1858,20 @@
             <path>
               <item name="FP-Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="FP-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FP-Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FP-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="machine-learning-models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FP-Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FP-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FP-Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FP-Web" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Final Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT&#10;BuildoutCfg" />
@@ -266,28 +1948,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31851852" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32668713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32668713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31851852" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31748468" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -330,7 +2011,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/sift_feature_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/image_retrieval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="83" lean-forward="false" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#center#0;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#center#0;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -348,7 +2078,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -361,7 +2093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -369,23 +2100,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="49" lean-forward="true" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.buildpack">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.buildpack" />
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -393,7 +2115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -401,31 +2122,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vlfeat-0.9.21/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vlfeat-0.9.21/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vlfeat-0.9.21/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/vlfeat-0.9.21/.gitattributes" />
     <entry file="file://$PROJECT_DIR$/vlfeat-0.9.21/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1794">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,7 +2148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -452,26 +2156,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/sift_feature_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="39" column="91" lean-forward="false" selection-start-line="39" selection-start-column="91" selection-end-line="39" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,22 +2172,49 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search_result.html">
+    <entry file="file://$PROJECT_DIR$/logic/sift_feature_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        <state relative-caret-position="312">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
-            <element signature="e#1160#1201#0#HTML" expanded="true" />
-            <element signature="e#1603#1624#0#HTML" expanded="true" />
-            <element signature="e#1736#1815#0#HTML" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1101" column="25" lean-forward="true" selection-start-line="1101" selection-start-column="25" selection-end-line="1101" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/search_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="272">
+          <caret line="22" column="84" lean-forward="false" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#center#0;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#center#0;n#form#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding />
         </state>
       </provider>
